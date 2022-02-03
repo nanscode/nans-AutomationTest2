@@ -54,7 +54,10 @@ public class HomePageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-	
+	@Test
+	public void newTest() {
+		System.out.println("Just print it !! ");
+	}
 	
 	@AfterMethod
 	public void tearDown(){
